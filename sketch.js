@@ -24,8 +24,8 @@ function setup() {
 
       while (x*x + y*y <= 4 && iteration < maxIterations) {
         let xtemp = x*x - y*y + x0;
-        x = 2*x*y + y0;
-        y = xtemp;
+        y = 2*x*y + y0;
+        x = xtemp;
 
         iteration++;
       }
